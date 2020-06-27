@@ -1,24 +1,25 @@
 ---
-title: Hello World!
-featuredImage: /images/uploads/isabella juskova.jpg
-subtitle: This is the home page subtitle
+title: Charlotte Skinner
+featuredImage: /images/uploads/group-4.png
+subtitle: Brighton-based Full Stack Developer
 meta:
-  title: ''
+  title: ""
 ---
+# About me
 
-# Netlify CMS + React Starter
+I am a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.
 
-A starter project for creating lightning-fast, offline-first websites with [Netlify CMS](https://netlifycms.org) and React.
+I work quickly and effectively in getting things built and working across the stack.
 
-- **[Create React App](https://github.com/facebookincubator/create-react-app)**
-- **[React Router](https://github.com/ReactTraining/react-router)** for routing
-- **[React Helmet](https://github.com/nfl/react-helmet)** for document titles, descriptions, meta
-- **[React Snapshot](https://github.com/geelen/react-snapshot)** for pre-rendering to static html so it works without Javascript ⭐️
-- **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
+I am an excellent communicator who thrives in bright and enthusiastic teams, and I'm also a self starter when working solo.
 
-## See also
+I know that the aesthetics of effective design combined with application speed, security and reliability combine to create a great user experience.
 
-[Netlify CMS Docs](https://www.netlifycms.org/docs/)  
-[Netlify CMS Repo](https://github.com/netlify/netlify-cms)  
-[Hyperstatic](https://github.com/Jinksi/hyperstatic) – the same starter project minus Netlify CMS  
-[Gatsby + Netlify CMS Starter (Gatsbro)](https://github.com/Jinksi/gatsbro)
+I work closely with clients to ensure their aims and expectations are met.
+
+## Contact details
+
+Charlotte Skinner
+Brighton
+07713344325
+cs.skinner90@hotmail.co.uk
