@@ -1,6 +1,6 @@
 ---
 title: Charlotte Skinner
-featuredImage: /images/uploads/group-4-3-.png
+featuredImage: /images/uploads/group-4-4-.png
 subtitle: Brighton-based Full Stack Developer
 meta:
   title: ""
