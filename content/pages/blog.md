@@ -1,4 +1,5 @@
 ---
 title: Blog
-featuredImage: /images/uploads/ng-32703.jpg
+featuredImage: /images/uploads/group-4-4-.png
+subtitle: How-to's and life as a woman in tech!
 ---
