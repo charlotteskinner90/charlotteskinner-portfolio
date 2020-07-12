@@ -24,11 +24,15 @@ export default ({
         backgroundImage={featuredImage}
       />
 
-      {!!postCategories.length && (
-        <PostCategoriesNav categories={postCategories} />
-      )}
+      <div className='section'>
+        <div className='container'>
+          {!!postCategories.length && (
+            <PostCategoriesNav categories={postCategories} />
+          )}
 
-      {!!posts.length && <PostSection posts={posts} />}
+          {!!posts.length && <PostSection posts={posts} />}
+        </div>
+      </div>
     </main>
   )
 }

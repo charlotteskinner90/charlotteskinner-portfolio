@@ -5,7 +5,6 @@ import Helmet from 'react-helmet'
 import ScrollToTop from './components/ScrollToTop'
 import Meta from './components/Meta'
 import Home from './views/Home'
-import About from './views/About'
 import Blog from './views/Blog'
 import SinglePost from './views/SinglePost'
 import Contact from './views/Contact'
@@ -41,6 +40,7 @@ class App extends Component {
 
   getDocuments = collection => this.state.data[collection] || []
 
+
   render () {
     const globalSettings = this.getDocument('settings', 'global')
     const {
@@ -64,7 +64,7 @@ class App extends Component {
         <div className='React-Wrap'>
           <ScrollToTop />
           <ServiceWorkerNotifications reloadOnUpdate />
-          <GithubCorner url='https://github.com/Jinksi/netlify-cms-react-starter' />
+          <GithubCorner url='https://github.com/charlotteskinner90' />
           <Helmet
             defaultTitle={siteTitle}
             titleTemplate={`${siteTitle} | %s`}
@@ -93,12 +93,7 @@ class App extends Component {
               component={Home}
               description={siteDescription}
               fields={this.getDocument('pages', 'home')}
-            />
-            <RouteWithMeta
-              path='/about/'
-              exact
-              component={About}
-              fields={this.getDocument('pages', 'about')}
+              aboutFields={this.getDocument('pages', 'about')}
             />
             <RouteWithMeta
               path='/contact/'
