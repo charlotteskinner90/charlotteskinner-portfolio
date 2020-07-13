@@ -95,9 +95,10 @@ collections: # A list of collections the CMS should be able to edit
     editor:
       preview: true
     folder: content/work
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
+      - {label: Title, name: title, widget: string}
       - {label: Date / Order, name: date, widget: date}
       - {label: Post Featured Image, name: postFeaturedImage, widget: image, required: false}
       - label: "Gallery"

@@ -58,6 +58,7 @@ class App extends Component {
     const postCategories = this.getDocuments('postCategories').filter(
       category => categoriesFromPosts.indexOf(category.name.toLowerCase()) >= 0
     )
+    const workThumbnails = this.getDocuments('work')
 
     return (
       <Router>
@@ -94,6 +95,7 @@ class App extends Component {
               description={siteDescription}
               fields={this.getDocument('pages', 'home')}
               aboutFields={this.getDocument('pages', 'about')}
+              workFields={workThumbnails}
             />
             <RouteWithMeta
               path='/contact/'

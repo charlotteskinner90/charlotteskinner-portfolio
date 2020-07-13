@@ -27,13 +27,6 @@ export default () => {
             </ul>
           </div>
       </div>
-      {/* <div className='section'>
-        <div className='container'>
-          <Content source={section2} />
-          <p>The image below is a {'<LazyImage />'}</p>
-          <LazyImage src={featuredImage} alt='LazyImage' />
-        </div>
-      </div> */}
     </div>
   )
 }

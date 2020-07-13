@@ -4,8 +4,9 @@ import Content from '../components/Content'
 import PageHeader from '../components/PageHeader'
 import './Home.css'
 import About from './About'
+import Work from './Work'
 
-export default ({ fields, aboutFields }) => {
+export default ({ fields, aboutFields, workFields }) => {
   const { title, subtitle, featuredImage, body } = fields
   return (
     <>
@@ -24,6 +25,7 @@ export default ({ fields, aboutFields }) => {
         </div>
       </main>
       <About fields={aboutFields} />
+      <Work workFields={workFields} />
     </>
   )
 }
