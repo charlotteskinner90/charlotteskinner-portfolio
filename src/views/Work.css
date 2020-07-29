@@ -1,21 +1,10 @@
 .gallery-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 10px;
-    height: 100vh;
     margin-left: 150px;
     margin-right: 150px;
-}
-@media only screen and (max-width: 900px) {
-    .gallery-container {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-}
-@media only screen and (max-width: 700px) {
-    .gallery-container {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-    }
+    margin-bottom: 100px;
+    align-items: center;
 }
