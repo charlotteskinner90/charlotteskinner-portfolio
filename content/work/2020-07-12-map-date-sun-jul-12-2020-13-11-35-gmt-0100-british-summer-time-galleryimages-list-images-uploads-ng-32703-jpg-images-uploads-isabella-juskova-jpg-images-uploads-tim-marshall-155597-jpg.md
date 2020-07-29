@@ -1,6 +1,7 @@
 ---
-title: Test workplace
-date: 2020-07-12T12:11:35.637Z
+title: Enlitened
+date: 2020-07-29T12:11:35.637Z
+postFeaturedImage: /images/uploads/enlitened.png
 galleryImages:
-  - /images/uploads/ng-32703.jpg
+  - /images/uploads/enlitened.png
 ---
