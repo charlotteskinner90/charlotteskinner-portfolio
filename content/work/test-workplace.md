@@ -1,6 +1,7 @@
 ---
-title: Test workplace
-date: 2020-07-15T19:41:19.997Z
+title: iWoodCNC
+date: 2019-12-04T20:41:19.997Z
+postFeaturedImage: /images/uploads/cnc.png
 galleryImages:
-  - /images/uploads/ng-32703.jpg
+  - /images/uploads/cnc.png
 ---
