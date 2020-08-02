@@ -16,10 +16,3 @@ I am an excellent communicator who thrives in bright and enthusiastic teams, and
 I know that the aesthetics of effective design combined with application speed, security and reliability combine to create a great user experience.
 
 I work closely with clients to ensure their aims and expectations are met.
-
-## Contact details
-
-Charlotte Skinner
-Brighton
-07713344325
-cs.skinner90@hotmail.co.uk
