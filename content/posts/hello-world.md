@@ -1,53 +1,20 @@
 ---
 title: Hello World!
-status: Featured / Published
-date: '2018-03-27'
-postFeaturedImage: /images/uploads/tim-marshall-155597.jpg
-excerpt: >-
-  Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu. Nullam
-  interdum arcu vitae augue pulvinar sodales. Sed non dui diam. Quisque lectus
-  est, lobortis ac efficitur vitae, posuere a mauris. Phasellus ac dui
-  pellentesque, lacinia risus ut, imperdiet eros.
+status: Published
+date: 2018-08-19T23:00:00.000Z
+postFeaturedImage: /images/uploads/2808309.jpg
+excerpt: My name is Charlotte, and I am currently studying to become a Full
+  Stack Web Developer with the Code Institute. I find the world of coding and
+  technology both fascinating and incredibly satisfying - there's nothing quite
+  like seeing the instant fruits of your labour!
 categories:
   - category: News
 meta:
-  canonicalLink: ''
-  description: ''
+  canonicalLink: ""
+  description: ""
   noindex: false
-  title: ''
+  title: ""
 ---
+### Hello and welcome to my site!
 
-Paragraphs are separated by a blank line.
-
-The second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. _Italic_, **bold**, and `monospace`.
-
-### Unordered lists:
-
-* this one
-* that one
-* the other one
-
-### Ordered lists:
-
-1.  first item
-1.  second item
-1.  third item
-
-> Block quotes are written like so.
->
-> They can span multiple paragraphs,
-> if you like.
-
-## Heading 2
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
+My name is Charlotte, and I am currently studying to become a Full Stack Web Developer with the Code Institute. I find the world of coding and technology both fascinating and incredibly satisfying - there's nothing quite like seeing the instant fruits of your labour! This site is acting as a working portfolio of the sites and applications I am creating in my course, and as a blog to talk about my experiences of being a young female coder in the tech world and the skills I'm learning along the way
