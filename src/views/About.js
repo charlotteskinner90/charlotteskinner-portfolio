@@ -1,31 +1,22 @@
 import React from 'react'
-import './About.css'
+import './Education.css'
 
 export default () => {
   return (
-    <div className='About'>
+    <div className='Education'>
       <div className='section'>
         <div className='container'>
-            <h1>Education</h1>
-
-            <h3>Code Institute</h3>
-            <p className="info">Diploma in Full Stack Web Development (1st Class) <span>•</span> <em className="date">July 2019</em></p>
-            <p>
-              I studied part-time for this diploma whilst working full-time as a junior software developer.
-              The course was portfolio based, focused on building a solid stack of projects to show prospective employers.
-              While studying the course I learned the following technologies:
-            </p>
-            <ul className="tech-list">
-              <li>CSS (& SASS)</li>
-              <li>JavaScript</li>
-              <li>MongoDB</li>
-              <li>PostgresQL</li>
-              <li>SQL</li>
-              <li>Python (Flask & Django frameworks)</li>
-              <li>Heroku deployment</li>
-              <li>AWS</li>
-            </ul>
-          </div>
+            <div className='about-container'>
+                <h3>What do I do?</h3>
+                <p>I am a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.</p>
+                <h3>How do I do it?</h3>
+                <p>I work quickly and effectively in getting things built and working across the stack.</p>
+                <p>I work closely with clients to ensure their aims and expectations are met.</p>
+                <h3>Why hire me?</h3>
+                <p>I am an excellent communicator who thrives in bright and enthusiastic teams, and I'm also a self starter when working solo.</p>
+                <p>I know that the aesthetics of effective design combined with application speed, security and reliability combine to create a great user experience.</p>
+            </div>
+        </div>
       </div>
     </div>
   )

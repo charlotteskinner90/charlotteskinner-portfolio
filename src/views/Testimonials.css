@@ -1,0 +1,22 @@
+.carousel .slide {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    min-height: 350px;
+}
+@media screen and (max-width: 750px) {
+    .carousel .slide {
+        min-height: 350px;
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+  }
+
+#testimonials h3 {
+    color: white;
+}
+#testimonials p {
+    color: white;
+}

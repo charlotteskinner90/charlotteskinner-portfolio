@@ -1,13 +1,14 @@
 import React from 'react'
 
-import Content from '../components/Content'
 import PageHeader from '../components/PageHeader'
 import './Home.css'
 import About from './About'
 import Work from './Work'
+import Education from './Testimonials'
+import Testimonials from './Education'
 
 export default ({ fields, aboutFields, workFields }) => {
-  const { title, subtitle, featuredImage, body } = fields
+  const { title, subtitle, featuredImage } = fields
   return (
     <>
       <main className='Home'>
@@ -17,15 +18,11 @@ export default ({ fields, aboutFields, workFields }) => {
           subtitle={subtitle}
           backgroundImage={featuredImage}
         />
-
-        <div className='section'>
-          <div className='container'>
-            <Content source={body} />
-          </div>
-        </div>
+        <About />
       </main>
-      <About fields={aboutFields} />
       <Work workFields={workFields} />
+      <Education />
+      <Testimonials />
     </>
   )
 }
