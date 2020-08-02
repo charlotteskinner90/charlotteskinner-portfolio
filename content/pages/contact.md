@@ -1,5 +1,5 @@
 ---
-title: Contact us
+title: Say hello
 featuredImage: /images/uploads/group-4-4-.png
 subtitle: Have a question or want to work together?
 address: Brighton
