@@ -2,10 +2,12 @@
 title: Maintaining a work/life balance
 status: Published
 date: 2019-03-04T17:07:54.535Z
-postFeaturedImage: /images/uploads/worklifebalance.png
+postFeaturedImage: /images/uploads/artboard-min-1-2-3-4-5-6-7-8.png
 excerpt: In this blog post I wanted to tell you about my first few months as a
   developer, and discuss how to maintain a work/life balance when you are
   starting out..
+categories:
+  - category: Updates
 ---
 Hi everyone!
 
