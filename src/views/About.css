@@ -1,6 +1,91 @@
-.about {
+.About {
     list-style-type: none;
+    margin-bottom: 80px;
 }
 .about-container {
     text-align: center;
+    margin-bottom: 80px;
 }
+.skill-icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(80px, 1fr));
+    grid-gap: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+    .skill-icons {
+         margin-left: 20px;
+         margin-right: 20px;
+    }
+   }
+i {
+    color: #7EB3BF;
+    font-size: 80px;
+}
+
+
+  @keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-webkit-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-moz-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-o-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  
+  .bar{
+    background-color: #EEE;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+  .bar::before{
+    content:  attr(data-skill);
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  }
+  
+  .bar::before{
+    background-color: #191D32;
+  }
+  .bar.learning::before{
+    width: calc(20% - 10px);
+  }
+  .bar.basic::before{
+    width: calc(40% - 10px);
+  }
+  .bar.intermediate::before{
+    width: calc(60% - 10px);
+  }
+  .bar.advanced::before{
+    width: calc(70% - 10px);
+  }
+  .bar.expert::before{
+    width: calc(80% - 10px);
+  }
+  

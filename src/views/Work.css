@@ -28,12 +28,6 @@
     overflow: hidden;
   }
   
-  .WorkCard:hover,
-  .WorkCard:focus {
-    transform: translateY(-1px);
-    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
-  }
-  
   .WorkCard--Image {
     margin: 0 0 2rem 0;
     width: 100%;

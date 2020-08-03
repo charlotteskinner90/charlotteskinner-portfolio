@@ -20,6 +20,10 @@
     "sw-precache": "^5.2.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "@researchgate/react-intersection-observer": "^1.0.1",
     "date-fns": "^2.2.1",
     "dom-form-serializer": "^1.0.7",

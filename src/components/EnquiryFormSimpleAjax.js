@@ -97,8 +97,8 @@ class Form extends React.Component {
             <option disabled hidden>
               Type of Enquiry
             </option>
-            <option>Need to know more</option>
-            <option>Found a bug</option>
+            <option>Want to work together</option>
+            <option>Got a question</option>
             <option>Want to say hello</option>
           </select>
         </label>
@@ -117,7 +117,7 @@ class Form extends React.Component {
         <input
           className='Button EnquiryForm--SubmitButton'
           type='submit'
-          value='Enquire'
+          value='Send'
           disabled={this.state.disabled}
         />
       </form>

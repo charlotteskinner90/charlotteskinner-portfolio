@@ -1,10 +1,11 @@
 import React from 'react'
-import './About.css'
+import './Education.css'
 
 export default () => {
   return (
-    <div className='About'>
+    <div className='Education'>
       <div className='section'>
+        <h2 style={{ textAlign: 'center', textTransform: 'uppercase', textDecoration: 'double underline', marginBottom: '10px' }}>Education</h2>
         <div className='container'>
             <h3>Code Institute</h3>
             <p className="info">Diploma in Full Stack Web Development (1st Class) <span>•</span> <em className="date">July 2019</em></p>

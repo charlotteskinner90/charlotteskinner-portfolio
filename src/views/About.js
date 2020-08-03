@@ -1,9 +1,9 @@
 import React from 'react'
-import './Education.css'
+import './About.css'
 
 export default () => {
   return (
-    <div className='Education'>
+    <div className='About'>
       <div className='section'>
         <div className='container'>
             <div className='about-container'>
@@ -16,6 +16,28 @@ export default () => {
                 <p>I am an excellent communicator who thrives in bright and enthusiastic teams, and I'm also a self starter when working solo.</p>
                 <p>I know that the aesthetics of effective design combined with application speed, security and reliability combine to create a great user experience.</p>
             </div>
+        </div>
+        <div class="container">
+            <div className="skill-icons">
+                <i class="devicon-html5-plain"></i>
+                <i class="devicon-css3-plain"></i>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-react-original"></i>
+                <i class="devicon-django-plain"></i>
+                <i class="devicon-python-plain"></i>
+                <i class="devicon-postgresql-plain"></i>
+                <i class="devicon-mongodb-plain"></i>
+            </div>
+
+            <div class="bar front expert" data-skill="HTML"></div>
+            <div class="bar front expert" data-skill="CSS"></div>
+            <div class="bar front expert" data-skill="Javascript"></div>
+            <div class="bar front expert" data-skill="ReactJS"></div>
+            <div class="bar front advanced" data-skill="React Native"></div>
+            <div class="bar front advanced" data-skill="Redux"></div>
+            <div class="bar back intermediate" data-skill="Python (Django/Flask)"></div>
+            <div class="bar back intermediate" data-skill="PostgreSQL / SQL / MongoDB"></div>
+            <div class="bar back basic" data-skill=".NET Core"></div>
         </div>
       </div>
     </div>

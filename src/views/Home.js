@@ -13,7 +13,6 @@ export default ({ fields, aboutFields, workFields }) => {
     <>
       <main className='Home'>
         <PageHeader
-          large
           title={title}
           subtitle={subtitle}
           backgroundImage={featuredImage}
