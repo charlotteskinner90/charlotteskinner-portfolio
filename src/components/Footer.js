@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faGithub, faLinkedin, faWordpress } from "@fortawesome/free-brands-svg-icons"
+import { faTwitter, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 export default ({ globalSettings, socialSettings, navLinks }) => (
   <footer className='Footer'>
