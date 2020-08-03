@@ -36,8 +36,7 @@ export default () => {
             <div class="bar front advanced" data-skill="React Native"></div>
             <div class="bar front advanced" data-skill="Redux"></div>
             <div class="bar back intermediate" data-skill="Python (Django/Flask)"></div>
-            <div class="bar back intermediate" data-skill="PostgreSQL / SQL / MongoDB"></div>
-            <div class="bar back basic" data-skill=".NET Core"></div>
+            <div class="bar back intermediate" data-skill="PostgreSQL / MongoDB"></div>
         </div>
       </div>
     </div>
