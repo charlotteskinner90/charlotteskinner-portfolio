@@ -33,6 +33,14 @@
   line-height: 1.2;
 }
 
+@media screen and (max-width: 1050px) {
+  @supports (display: grid) {
+    .PostSection--Grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
 @media screen and (max-width: 750px) {
   .PostSection .PostCard {
     width: 100%;
