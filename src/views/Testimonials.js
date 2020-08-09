@@ -34,6 +34,15 @@ export default () => (
                 </h3>
                 <p>Joe McTiernan, The Student Room (2020)</p>
             </div>
+            <div>
+                <h3>
+                Charlotte has done an exceptional job creating what I asked for. Its never easy explaining design concepts over an email and have it all look just how you imagined.
+I'm not particularly tech savvy when it comes to editing online pages yet Charlotte has managed to put together an admin page that even I can make edits and changes to my website with ease and speed.
+The advice and help dispensed throughout the whole procedure was incredibly helpful. Useful features, layout of content and accessibility were all very well thought through and helped make my webpage beautifully clean and simple yet informative and helpful.
+She's done a truly fantastic job and I'd recommend her to anyone looking to create their own website
+                </h3>
+                <p>James Rivett, iWoodCNC (2020)</p>
+            </div>
         </Carousel>
     </div>
 );

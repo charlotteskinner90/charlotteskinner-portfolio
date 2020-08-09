@@ -4,23 +4,19 @@ import PageHeader from '../components/PageHeader'
 import './Home.css'
 import About from './About'
 import Work from './Work'
-import Education from './Testimonials'
-import Testimonials from './Education'
+import Testimonials from './Testimonials'
 
 export default ({ fields, aboutFields, workFields }) => {
-  const { title, subtitle, featuredImage } = fields
   return (
     <>
       <main className='Home'>
         <PageHeader
-          title={title}
-          subtitle={subtitle}
-          backgroundImage={featuredImage}
+          title="Hi, I'm Charlotte"
+          subtitle="Brighton-based Full Stack Developer"
         />
         <About />
       </main>
       <Work workFields={workFields} />
-      <Education />
       <Testimonials />
     </>
   )

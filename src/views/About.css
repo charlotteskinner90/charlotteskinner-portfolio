@@ -5,6 +5,18 @@
 .about-container {
     text-align: center;
     margin-bottom: 80px;
+    background-color: #37364a;
+    color: #ffffff;
+    padding: 6rem 4rem;
+}
+.about-bg {
+    margin-left: 'auto';
+    margin-right: 'auto';
+    height: 400px;
+    background-image: url("/images/developer.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
 }
 .skill-icons {
     display: grid;
@@ -22,12 +34,12 @@
          margin-left: 20px;
          margin-right: 20px;
     }
-   }
+}
+
 i {
     color: #7EB3BF;
     font-size: 80px;
 }
-
 
   @keyframes load{
     from {
@@ -71,7 +83,7 @@ i {
   }
   
   .bar::before{
-    background-color: #191D32;
+    background-color: #37364a;
   }
   .bar.learning::before{
     width: calc(20% - 10px);

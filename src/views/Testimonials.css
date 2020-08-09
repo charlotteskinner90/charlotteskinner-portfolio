@@ -4,7 +4,9 @@
     padding-left: 100px;
     padding-right: 100px;
     min-height: 350px;
-    background-color: #191D32;
+    background-color: #37364a;
+    display: flex;
+    justify-content: center;
 }
 @media screen and (max-width: 750px) {
     .carousel .slide {

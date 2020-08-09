@@ -13,7 +13,7 @@ export default ({
   postCategories = [],
   showFeatured = true
 }) => {
-  const { title, subtitle, featuredImage } = fields
+  const { title, subtitle } = fields
   posts = _sortBy(posts, ['date']).reverse()
 
   return (
@@ -21,9 +21,7 @@ export default ({
       <PageHeader
         title={title}
         subtitle={subtitle}
-        backgroundImage={featuredImage}
       />
-
       <div className='section'>
         <div className='container'>
           {!!postCategories.length && (
