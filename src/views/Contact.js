@@ -1,12 +1,12 @@
 import React from 'react'
-import { MapPin, Smartphone, Mail } from 'react-feather'
+import { MapPin, Mail } from 'react-feather'
 
 import PageHeader from '../components/PageHeader'
 import EnquiryFormSimpleAjax from '../components/EnquiryFormSimpleAjax'
 import './Contact.css'
 
 export default ({ fields }) => {
-  const { title, subtitle, address, phone, email } = fields
+  const { title, subtitle, address, email } = fields
   return (
     <div className="Contact">
       <PageHeader
