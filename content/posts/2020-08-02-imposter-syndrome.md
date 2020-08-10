@@ -1,7 +1,7 @@
 ---
 title: Imposter Syndrome
 status: Published
-date: 2019-03-31T16:14:05.568Z
+date: 2018-03-31T16:14:05.568Z
 postFeaturedImage: /images/uploads/download.jpeg
 excerpt: People have visions of coding life to be full of innovation, daily wins
   and inspiration - and some days are! But there are other days when you just
