@@ -1,8 +1,8 @@
-siteTitle: Portfolio
-siteUrl: https://netlify-cms-react-starter.netlify.com
-siteDescription: Portfolio site
+siteTitle: Charlotte Skinner || Full Stack Developer
+siteUrl: https://charlotteskinner.dev
+siteDescription: Charlotte Skinner || Full Stack Developer
 socialMediaCard:
-  image: /images/uploads/card-og.png
+  image: /images/uploads/header.png
   twitterCreatorAccount: "@CSkinner90"
   twitterSiteAccount: ""
 headerScripts: ""
