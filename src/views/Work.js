@@ -10,16 +10,13 @@ export default ({ workFields }) => {
         {workFields.map(item => (
           <div className="WorkCard">
             {item.galleryImages.map(image => (
-              <div className='WorkCard--Image relative'>
+              <div data-content={item.title} className='WorkCard--Image relative'>
                 <BackgroundImage
                   src={image}
                   alt={image}
                 />
               </div>
             ))}
-            <div className='WorkCard--Content'>
-              {item.title && <h3 className='WorkCard--Title'>{item.title}</h3>}
-            </div>
           </div>
         ))}
       </div>

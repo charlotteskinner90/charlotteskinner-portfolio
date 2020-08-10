@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 10px;
+    grid-gap: 30px;
     margin-left: 150px;
     margin-right: 150px;
     margin-bottom: 100px;
@@ -18,20 +18,38 @@
 
   .WorkCard {
     text-decoration: none;
-    margin: 1rem;
     background: white;
     color: inherit;
     border: 1px solid var(--lightGrey);
-    border-radius: var(--borderRadius);
+    border-radius: 5px;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.15s ease-in-out;
     overflow: hidden;
   }
   
   .WorkCard--Image {
-    margin: 0 0 2rem 0;
+    position: relative;
     width: 100%;
     height: 25rem;
+  }
+
+  .WorkCard--Image:after {
+    content: attr(data-content);
+    color:#fff;
+    font-size: 2.5rem;
+    position:absolute;
+    width:100%; height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background:rgba(55,54,74,0.8);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  .WorkCard--Image:hover:after {
+      opacity:1;
   }
 
   @media screen and (max-width: 750px) {

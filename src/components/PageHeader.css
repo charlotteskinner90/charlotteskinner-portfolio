@@ -51,3 +51,16 @@
     font-size: 3rem;
   }
  }
+
+ @media screen and (max-width: 383px) {
+  .PageHeader {
+    padding: 18rem 0 4rem 0;
+  }
+  .PageHeader--Title {
+    font-size: 6rem;
+    margin-bottom: 0;
+  }
+  .PageHeader--Subtitle {
+    font-size: 3rem;
+  }
+ }

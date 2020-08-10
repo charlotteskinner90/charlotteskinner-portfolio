@@ -5,7 +5,7 @@ export default () => {
   return (
     <div className='About'>
       <div>
-        <div className='about-bg'></div>
+        <div className='about-bg' title="Image art by https://undraw.co/"></div>
           <div className='about-container'>
             <h3>What do I do?</h3>
             <p>I am a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.</p>
@@ -19,14 +19,14 @@ export default () => {
         </div>
         <div class="container">
           <div className="skill-icons">
-            <i class="devicon-html5-plain"></i>
-            <i class="devicon-css3-plain"></i>
+            <i class="devicon-html5-plain-wordmark"></i>
+            <i class="devicon-css3-plain-wordmark"></i>
             <i class="devicon-javascript-plain"></i>
             <i class="devicon-react-original"></i>
             <i class="devicon-django-plain"></i>
-            <i class="devicon-python-plain"></i>
-            <i class="devicon-postgresql-plain"></i>
-            <i class="devicon-mongodb-plain"></i>
+            <i class="devicon-python-plain-wordmark"></i>
+            <i class="devicon-postgresql-plain-wordmark"></i>
+            <i class="devicon-mongodb-plain-wordmark"></i>
           </div>
 
           <div class="bar front expert" data-skill="HTML"></div>
