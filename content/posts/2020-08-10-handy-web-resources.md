@@ -1,7 +1,7 @@
 ---
 title: Handy Web Resources
 status: Published
-date: 2018-05-25T14:31:08.047Z
+date: 2019-05-25T14:31:08.047Z
 postFeaturedImage: /images/uploads/screenshot-2020-08-10-at-15.38.34.png
 excerpt: I wanted to write a post about the handy web resources that I have
   found useful over the past 10 months since I started learning to code. It's a
