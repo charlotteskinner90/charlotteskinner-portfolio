@@ -100,6 +100,8 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: Title, name: title, widget: string}
       - {label: Date / Order, name: date, widget: date}
+      - {label: Overlay, name: overlay, widget: string}
+      - {label: Overlay Link, name: link, widget: string}
       - {label: Post Featured Image, name: postFeaturedImage, widget: image, required: false}
       - label: "Gallery"
         name: "galleryImages"
