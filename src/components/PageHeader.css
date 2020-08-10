@@ -1,7 +1,7 @@
 .PageHeader {
   background-color: #ffffff;
   color: #191D32;
-  padding: 15rem 0;
+  padding: 18rem 0;
   font-family: 'Amatic SC', cursive;
 }
 
@@ -54,7 +54,7 @@
 
  @media screen and (max-width: 383px) {
   .PageHeader {
-    padding: 18rem 0 4rem 0;
+    padding: 15rem 0 4rem 0;
   }
   .PageHeader--Title {
     font-size: 6rem;
