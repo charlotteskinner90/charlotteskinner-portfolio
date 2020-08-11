@@ -1,7 +1,7 @@
 ---
 title: First day as a Junior Software Developer
 status: Published
-date: 2018-10-31T00:00:00.000Z
+date: 2017-10-31T00:00:00.000Z
 postFeaturedImage: /images/uploads/coder.jpg
 excerpt: So I have just had my first day as a Junior Software Developer, and it
   surpassed all expectations! This is a run-down of how the day went..
