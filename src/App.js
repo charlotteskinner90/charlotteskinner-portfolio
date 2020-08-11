@@ -42,7 +42,9 @@ class App extends Component {
   getDocuments = collection => this.state.data[collection] || []
 
   componentDidMount() {
-    ReactGA.initialize('UA-175174407-1');
+    if (window.location.host === 'charlotteskinner.dev') {
+      ReactGA.initialize('UA-175174407-1');
+    }
   }
 
   render () {

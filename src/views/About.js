@@ -17,7 +17,7 @@ export default () => {
             <p>I know that the aesthetics of effective design combined with application speed, security and reliability combine to create a great user experience.</p>
           </div>
         </div>
-        <div class="container">
+        <div className="container">
           <div className="skill-icons">
             <i class="devicon-html5-plain-wordmark"></i>
             <i class="devicon-css3-plain-wordmark"></i>
