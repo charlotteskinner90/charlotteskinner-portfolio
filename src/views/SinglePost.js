@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { ChevronLeft } from 'react-feather'
-
+import ReactGA from 'react-ga'
 import Content from '../components/Content'
 import BackgroundImage from '../components/BackgroundImage'
 import { dateFormatted } from '../util/date'
@@ -9,6 +9,11 @@ import './SinglePost.css'
 
 export default ({ fields, nextPostURL, prevPostURL }) => {
   const { title, date, postFeaturedImage, body, categories = [] } = fields
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, [])
+
   return (
     <article className="SinglePost section light">
       {postFeaturedImage && (

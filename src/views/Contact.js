@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useEffect} from 'react'
 import { MapPin, Mail } from 'react-feather'
-
+import ReactGA from 'react-ga'
 import PageHeader from '../components/PageHeader'
 import EnquiryFormSimpleAjax from '../components/EnquiryFormSimpleAjax'
 import './Contact.css'
 
 export default ({ fields }) => {
   const { title, subtitle, address, email } = fields
+
+  useEffect(() => {
+    ReactGA.pageview('/contact');
+  }, [])
+
   return (
     <div className="Contact">
       <PageHeader

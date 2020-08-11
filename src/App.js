@@ -16,6 +16,7 @@ import ServiceWorkerNotifications from './components/ServiceWorkerNotifications'
 import data from './data.json'
 import { slugify } from './util/url'
 import { documentHasTerm, getCollectionTerms } from './util/collection'
+import ReactGA from 'react-ga';
 
 const RouteWithMeta = ({ component: Component, ...props }) => (
   <Route
@@ -40,6 +41,9 @@ class App extends Component {
 
   getDocuments = collection => this.state.data[collection] || []
 
+  componentDidMount() {
+    ReactGA.initialize('UA-175174407-1');
+  }
 
   render () {
     const globalSettings = this.getDocument('settings', 'global')
@@ -68,7 +72,7 @@ class App extends Component {
           <GithubCorner url='https://github.com/charlotteskinner90' />
           <Helmet
             defaultTitle={siteTitle}
-            titleTemplate={`${siteTitle} | %s`}
+            titleTemplate={siteTitle}
           />
           <Meta
             headerScripts={headerScripts}
