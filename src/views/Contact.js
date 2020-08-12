@@ -24,7 +24,7 @@ export default ({ fields }) => {
             {address && (
               <a
                 className="Contact--Details--Item"
-                href={`https://www.google.com.au/maps/search/${encodeURI(
+                href={`https://www.google.com/maps/search/${encodeURI(
                   address
                 )}`}
                 target="_blank"

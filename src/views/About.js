@@ -7,6 +7,9 @@ export default () => {
       <div>
         <div className='about-bg' title="Image art by https://undraw.co/"></div>
           <div className='about-container'>
+            <h3>About me</h3>
+            <p>I am currently a Mid-level Frontend Engineer with Enlitened (part of The Student Room Group) on the search for my next dream role, either as a Frontend or Full Stack Developer.</p>
+            <p style={{ marginBottom: '50px'}}>I am a conscientious and reliable individual able to work as part of a team or independently.</p>
             <h3>What do I do?</h3>
             <p style={{ marginBottom: '50px'}}>I am a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.</p>
             <h3>How do I do it?</h3>

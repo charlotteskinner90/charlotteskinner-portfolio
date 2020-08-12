@@ -7,7 +7,7 @@
     margin-bottom: 80px;
     background-color: #37364a;
     color: #ffffff;
-    padding: 6rem 4rem;
+    padding: 6rem 30rem;
 }
 .about-bg {
     margin-left: 'auto';
@@ -29,11 +29,32 @@
     align-items: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .about-container {
+    padding: 6rem 20rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about-container {
+    padding: 6rem 12rem;
+  }
+}
+
 @media screen and (max-width: 750px) {
     .skill-icons {
          margin-left: 20px;
          margin-right: 20px;
     }
+    .about-container {
+      padding: 6rem 10rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+  .about-container {
+    padding: 6rem 4rem;
+  }
 }
 
 i {
